@@ -1,3 +1,7 @@
+
+Remote repository is central clearing house which is the main repository for any company's source code where developers,operational engineers, QA,DS,DE etc teams will collabrate via this central clearing house. 
+With remotes, we can create alais name or short name for easy identificaion.
+
 =========================================================================================================
 Command line Activties :
 =========================================================================================================
