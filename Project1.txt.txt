@@ -1,0 +1,22 @@
+=========================================================================================================
+Command line Activties :
+=========================================================================================================
+Method 1:  Single machine - B4ms  - 8 cpu &  16 GB RAM
+                    Maven & git - Project : /opt/project/Hello-World-Code/webapp > 
+                    Nexus
+                    SonarQube & Tomcat
+
+/opt/project/Hello-World-Code/webapp > mvn clean deploy sonar:sonar tomcat7:deploy
+
+
+
+Method 2: Machine -1 : Maven & git - Project : war
+          Machine -2 : Nexus
+          Machine -3 : SonarQube & Tomcat
+
+cd /opt/project/Hello-World-Code/webapp > mvn clean deploy sonar:sonar tomcat7:deploy
+
+
+Crontab : every 5 mins run the maven commands for the build and Deploy
+1 * * * * "cd /opt/project/Hello-World-Code/webapp &&  mvn clean deploy sonar:sonar tomcat7:deploy"
+============================================================================================================================
