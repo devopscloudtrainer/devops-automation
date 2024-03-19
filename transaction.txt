@@ -1,0 +1,1 @@
+Checkout is used for switching between branch and also create & switch the branch.
